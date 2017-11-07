@@ -1,7 +1,7 @@
 {
   "name": "planremote-api",
   "scripts": {
-    "start": "nodemon --exec babel-node .src/server",
+    "start": "nodemon --exec babel-node ./src/server",
     "heroku-postbuild": "babel src -d build",
     "production-start": "node ./build/server.js"
   },
