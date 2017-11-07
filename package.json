@@ -1,5 +1,5 @@
 {
-  "name": "planremote-api",
+  "name": "<name-here>",
   "scripts": {
     "start": "nodemon --exec babel-node ./src/server",
     "heroku-postbuild": "babel src -d build",
